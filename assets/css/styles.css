@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 html.transition,
 html.transition *,
@@ -15,15 +15,17 @@ html.transition *:after {
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-  --circle-color: 250;
-  --metal: hsl(var(--circle-color), 34%, 69%);
-  --light: hsl(var(--circle-color), 18%, 96%);
+  --hue-color: 236; /* default 250 - Purple 250 - Green 142 - Blue 230 - Pink 340 */
+  --circle-color: 236;
+  --metal: hsl(var(--circle-color), 90%, 60%);
+  --light: hsl(var(--circle-color), 20%, 96%);
   --circle-shadow: 0 4px 67px hsla(var(--circle-color), 26%, 69%, 0.25);
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  /* --first-color: hsl(var(--hue-color), 69%, 61%); */
+  --first-color: hsl(var(--hue-color), 42%, 52%);
+  /* --first-color-second: hsl(var(--hue-color), 69%, 61%); */
+  --first-color-second: hsl(var(--hue-color), 42%, 52%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 9%, 15%);
@@ -36,7 +38,7 @@ html.transition *:after {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Montserrat", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -51,7 +53,7 @@ html.transition *:after {
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /*========== Margins Bottom ==========*/
   /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;

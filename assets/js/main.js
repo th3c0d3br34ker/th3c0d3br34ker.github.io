@@ -92,7 +92,7 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".portfolio__container", {
+const swiperPortfolio = new Swiper(".portfolio__container", {
   cssMode: true,
   loop: true,
 
@@ -106,8 +106,8 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     clickable: true,
   },
 
-  /* mousewheel: true,
-  keyboard: true, */
+  mousewheel: true,
+  keyboard: true,
 });
 
 /*==================== TESTIMONIAL ====================*/

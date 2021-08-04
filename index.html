@@ -30,8 +30,13 @@ I sincerely admit ! Not everything thing you can see on the website was develope
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/line.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="shortcut icon" href="favicon.ico?v8=qAJ44G5Bm7" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
@@ -596,7 +601,82 @@ I sincerely admit ! Not everything thing you can see on the website was develope
         </div>
       </section>
 
-      <!--//==================== PROJECT IN MIND ====================//-->
+      <!--//==================== Things I have Build ====================//-->
+      <div class="circle15"></div>
+      <div class="circle16"></div>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Some Things I’ve Built</h2>
+        <span class="section__subtitle">Most recent works</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--//==================== Protfolio 1 ====================//-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="https://utkarshb.netlify.app/assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">Ayuda NGO</h3>
+                <h4 class="portfolio__subtitle">official website</h4>
+                <br />
+                <p class="portfolio__description">
+                  A fully responsive website made in ReactJS, compantible with
+                  all kinds of devices. Deferred content loading for faster page
+                  load.
+                </p>
+                <a
+                  href="https://ngoayuda.org"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Visit
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--//==================== Protfolio 2 ====================//-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="https://utkarshb.netlify.app/assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">IQuest official website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with light n dark mode, spam
+                  filter v2.0 and minimum pictures to make site load faster
+                </p>
+                <a
+                  href="https://iquestvit.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--//==================== Project In Mind ====================//-->
       <section class="project section">
         <div class="project__bg">
           <div class="project__container container grid">
@@ -622,7 +702,7 @@ I sincerely admit ! Not everything thing you can see on the website was develope
         </div>
       </section>
 
-      <!--//==================== CONTACT ME ====================//-->
+      <!--//==================== Contact Me ====================//-->
       <section class="contact section" id="contact">
         <h2 class="section__title">Contact me</h2>
         <span class="section__subtitle">Get in touch</span>
@@ -758,7 +838,8 @@ I sincerely admit ! Not everything thing you can see on the website was develope
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>
