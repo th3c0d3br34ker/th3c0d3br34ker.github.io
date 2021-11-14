@@ -799,7 +799,7 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
 .project__title {
@@ -819,6 +819,7 @@ img {
 .project__img {
   width: 232px;
   justify-self: center;
+  padding: 0.5rem 2.5rem;
   border-radius: 50%;
 }
 
