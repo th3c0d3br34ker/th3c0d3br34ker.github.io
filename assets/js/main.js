@@ -53,7 +53,6 @@ const tabs = document.querySelectorAll("[data-target]"),
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    console.log("click disparado");
     const target = document.querySelector(tab.dataset.target);
 
     tabContents.forEach((tabContent) => {
@@ -94,7 +93,7 @@ modalCloses.forEach((modalClose) => {
 /*==================== PORTFOLIO SWIPER  ====================*/
 const swiperPortfolio = new Swiper(".portfolio__container", {
   cssMode: true,
-  loop: true,
+  autoHeight: true,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -104,6 +103,7 @@ const swiperPortfolio = new Swiper(".portfolio__container", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    dynamicBullets: true,
   },
 
   mousewheel: true,
