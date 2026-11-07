@@ -606,20 +606,28 @@ img {
   /* margin-bottom: var(--mb-1) */
 }
 
+.qualification__data > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .qualification__rounder {
   display: inline-block;
   width: 13px;
   height: 13px;
   background-color: var(--first-color);
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .qualification__line {
   display: block;
   width: 1px;
-  height: 100%;
+  flex-grow: 1;
   background-color: var(--first-color);
-  transform: translate(6px, -7px);
+  transform: translateY(-7px);
+  margin-bottom: -7px;
 }
 
 .qualification__content[data-content] {
