@@ -1,12 +1,8 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+html.transition body {
+  transition: background-color 750ms, color 750ms;
 }
 
 /*==================== VARIABLES CSS ====================*/
@@ -956,13 +952,6 @@ img {
   color: var(--first-color-lighter);
 }
 
-.footer__copy {
-  font-size: var(--smaller-font-size);
-  text-align: center;
-  color: var(--text-color-light);
-  margin-top: var(--mb-3);
-}
-
 .footer__title,
 .footer__subtitle,
 .footer__link,
@@ -1253,9 +1242,6 @@ img {
     }
     .footer__socials {
       justify-self: flex-end;
-    }
-    .footer__copy {
-      margin-top: 4.5rem;
     }
   }
 }
