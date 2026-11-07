@@ -1,7 +1,9 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
-html.transition body {
+html.transition body,
+html.transition .header,
+html.transition .nav__menu {
   transition: background-color 750ms, color 750ms;
 }
 
@@ -80,7 +82,7 @@ html.transition body {
 }
 
 /*========== Variables Dark theme ==========*/
-body.dark-theme {
+html.dark-theme {
   /* HSL color mode */
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
@@ -1465,48 +1467,6 @@ img {
   z-index: -1;
 }
 
-.circle12 {
-  position: absolute;
-  top: 475%;
-  left: 10%;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-
-.circle13 {
-  position: absolute;
-  top: 412%;
-  left: calc(20% - 20px);
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-
-.circle14 {
-  position: absolute;
-  top: 415%;
-  right: 10%;
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-
 .circle15 {
   position: absolute;
   top: 450%;
@@ -1527,47 +1487,6 @@ img {
   right: 15%;
   height: 145px;
   width: 145px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-
-.circle17 {
-  position: absolute;
-  top: 597%;
-  right: 12%;
-  height: 345px;
-  width: 345px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-
-.circle18 {
-  position: absolute;
-  top: 663%;
-  left: 15%;
-  height: 190px;
-  width: 190px;
-  border-radius: 50%;
-  background: hsl(var(--circle-color), 15%, 69%);
-  background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
-  transition: all 0.4s ease;
-  box-shadow: var(--circle-shadow);
-  z-index: -1;
-}
-.circle19 {
-  position: absolute;
-  top: 710%;
-  right: 12%;
-  height: 205px;
-  width: 205px;
   border-radius: 50%;
   background: hsl(var(--circle-color), 15%, 69%);
   background: linear-gradient(135deg, var(--light) 22%, var(--metal) 132%);
